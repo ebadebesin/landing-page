@@ -694,6 +694,26 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.collage{
+			display: block;
+			margin: 0.5rem 0;
+			width: 100%;
+		}
+			.image.collage img{
+				width: 50%;
+				
+				
+			}
+
+		.image.sub {
+			display: block;
+			margin: 2.5rem 0;
+			width: 50%;
+		}
+			.image.sub img{
+				width: 60%;
+			}
+
 		.image.main {
 			display: block;
 			margin: 2.5rem 0;
@@ -711,11 +731,19 @@ input, select, textarea {
 				margin: 2rem 0;
 			}
 
+			.image.sub{
+				margin: 2rem 0;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
 
 			.image.main {
+				margin: 1.5rem 0;
+			}
+
+			.image.sub{
 				margin: 1.5rem 0;
 			}
 
